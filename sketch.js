@@ -1107,7 +1107,7 @@ game();
   
 
 
-  if(life<=-3|| gameState===PLAY && medal1.visible===true && medal2.visible===true && medal3.visible===true){
+  if(life<=0|| gameState===PLAY && medal1.visible===true && medal2.visible===true && medal3.visible===true){
     gameState=END;
   }
 
